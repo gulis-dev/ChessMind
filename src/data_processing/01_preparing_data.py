@@ -522,7 +522,7 @@ def parse_args():
     p = argparse.ArgumentParser(description="Generator datasetu szachowego z PGN + Stockfish eval.")
     p.add_argument("--pgn",default="C:/Users/PIOTR KAPTUR/Desktop/Nowy folder (4)/lichess_db_standard_rated_2025-07.pgn.zst")
     p.add_argument("--stockfish",default="C:/Users/PIOTR KAPTUR/Desktop/Nowy folder (4)/stockfish/stockfish-windows-x86-64-avx2.exe")
-    p.add_argument("--out-dir",default="C:/Users/PIOTR KAPTUR/Desktop/Nowy folder (4)/shards")
+    p.add_argument("--out-dir",default="C:/Users/PIOTR KAPTUR/Desktop/Nowy folder (4)/shards_v1")
     p.add_argument("--target-open", type=int, default=DEFAULT_OPEN_TARGET)
     p.add_argument("--target-mid", type=int, default=DEFAULT_MID_TARGET)
     p.add_argument("--target-end", type=int, default=DEFAULT_END_TARGET)
