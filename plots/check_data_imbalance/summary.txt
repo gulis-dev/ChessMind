@@ -1,0 +1,9 @@
+Total rows (approx, sum of chunks): 1000000
+Phase OPEN: 300000
+Phase MID: 300000
+Phase END: 400000
+Eval sample size: 300000 clamp_ratio%: 0.15
+Eval stats (sample): mean=28.39 std=168.99 p50=24.00 p90=170.00 p99=552.00
+Time_ms stats (sample): mean=14.765 p50=13.970 p90=15.630 p99=48.170
+Depth stats (clean): mean=10.12 p50=10.00 p90=11.00 p99=14.00
+Plots generated in directory: plots
