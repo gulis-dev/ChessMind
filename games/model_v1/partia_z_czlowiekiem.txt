@@ -1,0 +1,345 @@
+C:\Users\Gulis\PycharmProjects\ChessMind\.venv\Scripts\python.exe C:\Users\Gulis\PycharmProjects\ChessMind\src\train_models\test.py 
+=== ChessMind MLP – tryb ciągły: podajesz ruch przeciwnika, silnik odpowiada ===
+Ścieżka do modelu [.pt] (Enter=outputs_shards/model_from_shards.pt): 
+Start FEN (Enter=początkowa): 
+Kolor silnika [white/black] (Enter=black): black
+Głębokość przeszukiwania [1-3] (Enter=1): 3
+Urządzenie: cuda
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+P P P P P P P P
+R N B Q K B N R
+FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+Załadowano model: outputs_shards/model_from_shards.pt | in_dim=21 | depth=3
+Ruch przeciwnika [UCI/SAN] lub komenda (fen <FEN>, board, save, new, undo, quit): e4
+[PRZECIWNIK] e4 (e2e4)
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . P . . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K B N R
+FEN: rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1
+[SILNIK] Nh6 (g8h6)  [depth=3, 1.42s]
+r n b q k b . r
+p p p p p p p p
+. . . . . . . n
+. . . . . . . .
+. . . . P . . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K B N R
+FEN: rnbqkb1r/pppppppp/7n/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 1 2
+Ruch przeciwnika [UCI/SAN] lub komenda (fen <FEN>, board, save, new, undo, quit): Bc4
+[PRZECIWNIK] Bc4 (f1c4)
+r n b q k b . r
+p p p p p p p p
+. . . . . . . n
+. . . . . . . .
+. . B . P . . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K . N R
+FEN: rnbqkb1r/pppppppp/7n/8/2B1P3/8/PPPP1PPP/RNBQK1NR b KQkq - 2 2
+[SILNIK] e6 (e7e6)  [depth=3, 1.53s]
+r n b q k b . r
+p p p p . p p p
+. . . . p . . n
+. . . . . . . .
+. . B . P . . .
+. . . . . . . .
+P P P P . P P P
+R N B Q K . N R
+FEN: rnbqkb1r/pppp1ppp/4p2n/8/2B1P3/8/PPPP1PPP/RNBQK1NR w KQkq - 0 3
+Ruch przeciwnika [UCI/SAN] lub komenda (fen <FEN>, board, save, new, undo, quit): Qf3
+[PRZECIWNIK] Qf3 (d1f3)
+r n b q k b . r
+p p p p . p p p
+. . . . p . . n
+. . . . . . . .
+. . B . P . . .
+. . . . . Q . .
+P P P P . P P P
+R N B . K . N R
+FEN: rnbqkb1r/pppp1ppp/4p2n/8/2B1P3/5Q2/PPPP1PPP/RNB1K1NR b KQkq - 1 3
+[SILNIK] Rg8 (h8g8)  [depth=3, 4.98s]
+r n b q k b r .
+p p p p . p p p
+. . . . p . . n
+. . . . . . . .
+. . B . P . . .
+. . . . . Q . .
+P P P P . P P P
+R N B . K . N R
+FEN: rnbqkbr1/pppp1ppp/4p2n/8/2B1P3/5Q2/PPPP1PPP/RNB1K1NR w KQq - 2 4
+Ruch przeciwnika [UCI/SAN] lub komenda (fen <FEN>, board, save, new, undo, quit): Nh3
+[PRZECIWNIK] Nh3 (g1h3)
+r n b q k b r .
+p p p p . p p p
+. . . . p . . n
+. . . . . . . .
+. . B . P . . .
+. . . . . Q . N
+P P P P . P P P
+R N B . K . . R
+FEN: rnbqkbr1/pppp1ppp/4p2n/8/2B1P3/5Q1N/PPPP1PPP/RNB1K2R b KQq - 3 4
+[SILNIK] Rh8 (g8h8)  [depth=3, 4.66s]
+r n b q k b . r
+p p p p . p p p
+. . . . p . . n
+. . . . . . . .
+. . B . P . . .
+. . . . . Q . N
+P P P P . P P P
+R N B . K . . R
+FEN: rnbqkb1r/pppp1ppp/4p2n/8/2B1P3/5Q1N/PPPP1PPP/RNB1K2R w KQq - 4 5
+Ruch przeciwnika [UCI/SAN] lub komenda (fen <FEN>, board, save, new, undo, quit): Ng5
+[PRZECIWNIK] Ng5 (h3g5)
+r n b q k b . r
+p p p p . p p p
+. . . . p . . n
+. . . . . . N .
+. . B . P . . .
+. . . . . Q . .
+P P P P . P P P
+R N B . K . . R
+FEN: rnbqkb1r/pppp1ppp/4p2n/6N1/2B1P3/5Q2/PPPP1PPP/RNB1K2R b KQq - 5 5
+[SILNIK] Rg8 (h8g8)  [depth=3, 6.89s]
+r n b q k b r .
+p p p p . p p p
+. . . . p . . n
+. . . . . . N .
+. . B . P . . .
+. . . . . Q . .
+P P P P . P P P
+R N B . K . . R
+FEN: rnbqkbr1/pppp1ppp/4p2n/6N1/2B1P3/5Q2/PPPP1PPP/RNB1K2R w KQq - 6 6
+Ruch przeciwnika [UCI/SAN] lub komenda (fen <FEN>, board, save, new, undo, quit): Nh7
+[PRZECIWNIK] Nxh7 (g5h7)
+r n b q k b r .
+p p p p . p p N
+. . . . p . . n
+. . . . . . . .
+. . B . P . . .
+. . . . . Q . .
+P P P P . P P P
+R N B . K . . R
+FEN: rnbqkbr1/pppp1ppN/4p2n/8/2B1P3/5Q2/PPPP1PPP/RNB1K2R b KQq - 0 6
+[SILNIK] Bd6 (f8d6)  [depth=3, 4.47s]
+r n b q k . r .
+p p p p . p p N
+. . . b p . . n
+. . . . . . . .
+. . B . P . . .
+. . . . . Q . .
+P P P P . P P P
+R N B . K . . R
+FEN: rnbqk1r1/pppp1ppN/3bp2n/8/2B1P3/5Q2/PPPP1PPP/RNB1K2R w KQq - 1 7
+Ruch przeciwnika [UCI/SAN] lub komenda (fen <FEN>, board, save, new, undo, quit): d4
+[PRZECIWNIK] d4 (d2d4)
+r n b q k . r .
+p p p p . p p N
+. . . b p . . n
+. . . . . . . .
+. . B P P . . .
+. . . . . Q . .
+P P P . . P P P
+R N B . K . . R
+FEN: rnbqk1r1/pppp1ppN/3bp2n/8/2BPP3/5Q2/PPP2PPP/RNB1K2R b KQq - 0 7
+[SILNIK] Bb4+ (d6b4)  [depth=3, 6.52s]
+r n b q k . r .
+p p p p . p p N
+. . . . p . . n
+. . . . . . . .
+. b B P P . . .
+. . . . . Q . .
+P P P . . P P P
+R N B . K . . R
+FEN: rnbqk1r1/pppp1ppN/4p2n/8/1bBPP3/5Q2/PPP2PPP/RNB1K2R w KQq - 1 8
+Ruch przeciwnika [UCI/SAN] lub komenda (fen <FEN>, board, save, new, undo, quit): c3
+[PRZECIWNIK] c3 (c2c3)
+r n b q k . r .
+p p p p . p p N
+. . . . p . . n
+. . . . . . . .
+. b B P P . . .
+. . P . . Q . .
+P P . . . P P P
+R N B . K . . R
+FEN: rnbqk1r1/pppp1ppN/4p2n/8/1bBPP3/2P2Q2/PP3PPP/RNB1K2R b KQq - 0 8
+[SILNIK] Rh8 (g8h8)  [depth=3, 7.76s]
+r n b q k . . r
+p p p p . p p N
+. . . . p . . n
+. . . . . . . .
+. b B P P . . .
+. . P . . Q . .
+P P . . . P P P
+R N B . K . . R
+FEN: rnbqk2r/pppp1ppN/4p2n/8/1bBPP3/2P2Q2/PP3PPP/RNB1K2R w KQq - 1 9
+Ruch przeciwnika [UCI/SAN] lub komenda (fen <FEN>, board, save, new, undo, quit): c3b4
+[PRZECIWNIK] cxb4 (c3b4)
+r n b q k . . r
+p p p p . p p N
+. . . . p . . n
+. . . . . . . .
+. P B P P . . .
+. . . . . Q . .
+P P . . . P P P
+R N B . K . . R
+FEN: rnbqk2r/pppp1ppN/4p2n/8/1PBPP3/5Q2/PP3PPP/RNB1K2R b KQq - 0 9
+[SILNIK] Ng8 (h6g8)  [depth=3, 7.26s]
+r n b q k . n r
+p p p p . p p N
+. . . . p . . .
+. . . . . . . .
+. P B P P . . .
+. . . . . Q . .
+P P . . . P P P
+R N B . K . . R
+FEN: rnbqk1nr/pppp1ppN/4p3/8/1PBPP3/5Q2/PP3PPP/RNB1K2R w KQq - 1 10
+Ruch przeciwnika [UCI/SAN] lub komenda (fen <FEN>, board, save, new, undo, quit): d5
+[PRZECIWNIK] d5 (d4d5)
+r n b q k . n r
+p p p p . p p N
+. . . . p . . .
+. . . P . . . .
+. P B . P . . .
+. . . . . Q . .
+P P . . . P P P
+R N B . K . . R
+FEN: rnbqk1nr/pppp1ppN/4p3/3P4/1PB1P3/5Q2/PP3PPP/RNB1K2R b KQq - 0 10
+[SILNIK] Rxh7 (h8h7)  [depth=3, 4.65s]
+r n b q k . n .
+p p p p . p p r
+. . . . p . . .
+. . . P . . . .
+. P B . P . . .
+. . . . . Q . .
+P P . . . P P P
+R N B . K . . R
+FEN: rnbqk1n1/pppp1ppr/4p3/3P4/1PB1P3/5Q2/PP3PPP/RNB1K2R w KQq - 0 11
+Ruch przeciwnika [UCI/SAN] lub komenda (fen <FEN>, board, save, new, undo, quit): d5e6
+[PRZECIWNIK] dxe6 (d5e6)
+r n b q k . n .
+p p p p . p p r
+. . . . P . . .
+. . . . . . . .
+. P B . P . . .
+. . . . . Q . .
+P P . . . P P P
+R N B . K . . R
+FEN: rnbqk1n1/pppp1ppr/4P3/8/1PB1P3/5Q2/PP3PPP/RNB1K2R b KQq - 0 11
+[SILNIK] fxe6 (f7e6)  [depth=3, 11.63s]
+r n b q k . n .
+p p p p . . p r
+. . . . p . . .
+. . . . . . . .
+. P B . P . . .
+. . . . . Q . .
+P P . . . P P P
+R N B . K . . R
+FEN: rnbqk1n1/pppp2pr/4p3/8/1PB1P3/5Q2/PP3PPP/RNB1K2R w KQq - 0 12
+Ruch przeciwnika [UCI/SAN] lub komenda (fen <FEN>, board, save, new, undo, quit): e1g1
+[PRZECIWNIK] O-O (e1g1)
+r n b q k . n .
+p p p p . . p r
+. . . . p . . .
+. . . . . . . .
+. P B . P . . .
+. . . . . Q . .
+P P . . . P P P
+R N B . . R K .
+FEN: rnbqk1n1/pppp2pr/4p3/8/1PB1P3/5Q2/PP3PPP/RNB2RK1 b q - 1 12
+[SILNIK] Qh4 (d8h4)  [depth=3, 4.60s]
+r n b . k . n .
+p p p p . . p r
+. . . . p . . .
+. . . . . . . .
+. P B . P . . q
+. . . . . Q . .
+P P . . . P P P
+R N B . . R K .
+FEN: rnb1k1n1/pppp2pr/4p3/8/1PB1P2q/5Q2/PP3PPP/RNB2RK1 w q - 2 13
+Ruch przeciwnika [UCI/SAN] lub komenda (fen <FEN>, board, save, new, undo, quit): h3
+[PRZECIWNIK] h3 (h2h3)
+r n b . k . n .
+p p p p . . p r
+. . . . p . . .
+. . . . . . . .
+. P B . P . . q
+. . . . . Q . P
+P P . . . P P .
+R N B . . R K .
+FEN: rnb1k1n1/pppp2pr/4p3/8/1PB1P2q/5Q1P/PP3PP1/RNB2RK1 b q - 0 13
+[SILNIK] Ne7 (g8e7)  [depth=3, 6.46s]
+r n b . k . . .
+p p p p n . p r
+. . . . p . . .
+. . . . . . . .
+. P B . P . . q
+. . . . . Q . P
+P P . . . P P .
+R N B . . R K .
+FEN: rnb1k3/ppppn1pr/4p3/8/1PB1P2q/5Q1P/PP3PP1/RNB2RK1 w q - 1 14
+Ruch przeciwnika [UCI/SAN] lub komenda (fen <FEN>, board, save, new, undo, quit): Nc3
+[PRZECIWNIK] Nc3 (b1c3)
+r n b . k . . .
+p p p p n . p r
+. . . . p . . .
+. . . . . . . .
+. P B . P . . q
+. . N . . Q . P
+P P . . . P P .
+R . B . . R K .
+FEN: rnb1k3/ppppn1pr/4p3/8/1PB1P2q/2N2Q1P/PP3PP1/R1B2RK1 b q - 2 14
+[SILNIK] e5 (e6e5)  [depth=3, 6.82s]
+r n b . k . . .
+p p p p n . p r
+. . . . . . . .
+. . . . p . . .
+. P B . P . . q
+. . N . . Q . P
+P P . . . P P .
+R . B . . R K .
+FEN: rnb1k3/ppppn1pr/8/4p3/1PB1P2q/2N2Q1P/PP3PP1/R1B2RK1 w q - 0 15
+Ruch przeciwnika [UCI/SAN] lub komenda (fen <FEN>, board, save, new, undo, quit): Qf7
+[PRZECIWNIK] Qf7+ (f3f7)
+r n b . k . . .
+p p p p n Q p r
+. . . . . . . .
+. . . . p . . .
+. P B . P . . q
+. . N . . . . P
+P P . . . P P .
+R . B . . R K .
+FEN: rnb1k3/ppppnQpr/8/4p3/1PB1P2q/2N4P/PP3PP1/R1B2RK1 b q - 1 15
+[SILNIK] Kd8 (e8d8)  [depth=3, 0.07s]
+r n b k . . . .
+p p p p n Q p r
+. . . . . . . .
+. . . . p . . .
+. P B . P . . q
+. . N . . . . P
+P P . . . P P .
+R . B . . R K .
+FEN: rnbk4/ppppnQpr/8/4p3/1PB1P2q/2N4P/PP3PP1/R1B2RK1 w - - 2 16
+Ruch przeciwnika [UCI/SAN] lub komenda (fen <FEN>, board, save, new, undo, quit): Qf8
+[PRZECIWNIK] Qf8# (f7f8)
+r n b k . Q . .
+p p p p n . p r
+. . . . . . . .
+. . . . p . . .
+. P B . P . . q
+. . N . . . . P
+P P . . . P P .
+R . B . . R K .
+FEN: rnbk1Q2/ppppn1pr/8/4p3/1PB1P2q/2N4P/PP3PP1/R1B2RK1 b - - 3 16
+Koniec gry: 1-0 (CHECKMATE)
+Ruch przeciwnika [UCI/SAN] lub komenda (fen <FEN>, board, save, new, undo, quit): 

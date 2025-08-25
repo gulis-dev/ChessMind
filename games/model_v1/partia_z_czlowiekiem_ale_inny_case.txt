@@ -1,0 +1,40 @@
+C:\Users\Gulis\PycharmProjects\ChessMind\.venv\Scripts\python.exe C:\Users\Gulis\PycharmProjects\ChessMind\src\train_models\test.py 
+=== ChessMind MLP – tryb ciągły: podajesz ruch przeciwnika, silnik odpowiada ===
+Ścieżka do modelu [.pt] (Enter=outputs_shards/model_from_shards.pt): 
+Start FEN (Enter=początkowa): rnb1k1n1/pppp2pr/4p3/8/1PB1P2q/5Q2/PP3PPP/RNB2RK1 w q - 2 13
+Kolor silnika [white/black] (Enter=black): 
+Głębokość przeszukiwania [1-3] (Enter=1): 3
+Urządzenie: cuda
+r n b . k . n .
+p p p p . . p r
+. . . . p . . .
+. . . . . . . .
+. P B . P . . q
+. . . . . Q . .
+P P . . . P P P
+R N B . . R K .
+FEN: rnb1k1n1/pppp2pr/4p3/8/1PB1P2q/5Q2/PP3PPP/RNB2RK1 w q - 2 13
+Załadowano model: outputs_shards/model_from_shards.pt | in_dim=21 | depth=3
+Ruch przeciwnika [UCI/SAN] lub komenda (fen <FEN>, board, save, new, undo, quit): g3
+[PRZECIWNIK] g3 (g2g3)
+r n b . k . n .
+p p p p . . p r
+. . . . p . . .
+. . . . . . . .
+. P B . P . . q
+. . . . . Q P .
+P P . . . P . P
+R N B . . R K .
+FEN: rnb1k1n1/pppp2pr/4p3/8/1PB1P2q/5QP1/PP3P1P/RNB2RK1 b q - 0 13
+[SILNIK] Qxh2# (h4h2)  [depth=3, 14.78s]
+r n b . k . n .
+p p p p . . p r
+. . . . p . . .
+. . . . . . . .
+. P B . P . . .
+. . . . . Q P .
+P P . . . P . q
+R N B . . R K .
+FEN: rnb1k1n1/pppp2pr/4p3/8/1PB1P3/5QP1/PP3P1q/RNB2RK1 w q - 0 14
+Koniec gry: 0-1 (CHECKMATE)
+Ruch przeciwnika [UCI/SAN] lub komenda (fen <FEN>, board, save, new, undo, quit): 
